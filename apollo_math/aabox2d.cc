@@ -30,8 +30,7 @@ AABox2d::AABox2d(const Vec2d &center, const double length, const double width)
       length_(length),
       width_(width),
       half_length_(length / 2.0),
-      half_width_(width / 2.0) {
-}
+      half_width_(width / 2.0) {}
 
 AABox2d::AABox2d(const Vec2d &one_corner, const Vec2d &opposite_corner)
     : AABox2d((one_corner + opposite_corner) / 2.0,

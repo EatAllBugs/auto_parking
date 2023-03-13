@@ -98,8 +98,7 @@ Box2d::Box2d(const AABox2d &aabox)
       half_width_(aabox.half_width()),
       heading_(0.0),
       cos_heading_(1.0),
-      sin_heading_(0.0) {
-}
+      sin_heading_(0.0) {}
 
 Box2d Box2d::CreateAABox(const Vec2d &one_corner,
                          const Vec2d &opposite_corner) {

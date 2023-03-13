@@ -116,7 +116,6 @@ bool Vec2d::operator==(const Vec2d &other) const {
 
 Vec2d operator*(const double ratio, const Vec2d &vec) { return vec * ratio; }
 
-
 }  // namespace math
 }  // namespace common
 }  // namespace apollo
